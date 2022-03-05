@@ -7,7 +7,7 @@ using namespace std;
 2.+ вывести все входные числа 
 3.+ вывести пары чисел 
 4.+ вывести тройки чисел 
-5. вывести произведения
+5.+ вывести произведения
 6. оставить 3 произведения которых не делятся на 4
 7. вывести минималтное 
  */
@@ -24,7 +24,7 @@ int main() {
 	for (int j(i+1); j<n ; j++)
 	for (int l(j+1); l<n ; l++)
 	{
-		cout << numbers[i] << " " << numbers[j] << " " << numbers[l] << endl;
+		cout << numbers[i]*numbers[j]*numbers[l] << endl;
 	}
 	;
 	return 0;
