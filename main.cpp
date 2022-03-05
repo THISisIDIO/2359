@@ -1,8 +1,15 @@
 #include <iostream>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* 
+план разработки
+1. считать все числа
+2. запомнить минимальное число, к торая не делятся на 4 , но делится на 2
+3. запомнить 3 минимальных числа, которые не делятся на 2
+4. после считавания всех чисел вывести произведения d2*n0*n1, n0*n1*n2
+5. вывести наименьшее из них
+ */
 
 int main() {
-	cout << "hello world";
+	
 	return 0;
 }
