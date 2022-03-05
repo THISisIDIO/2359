@@ -9,12 +9,13 @@ using namespace std;
 4.+ вывести тройки чисел 
 5.+ вывести произведения
 6.+ оставить 3 произведения которых не делятся на 4
-7. вывести минималтное 
+7.+ вывести минималтное 
  */
 
 int main() {
 	int n(0);
 	cin >> n;
+	int min=1001;
 	vector<int> numbers(n);
 	for (int i(0); i<n ; i++)
 	{
@@ -25,9 +26,9 @@ int main() {
 	for (int l(j+1); l<n ; l++)
 	{
 		int prod=numbers[i]*numbers[j]*numbers[l];
-		if (prod%4!=0)
-		cout << prod << endl;
+		if (prod%4!=0 and min>prod)
+		min=prod;
 	}
-	;
+	cout << min ;
 	return 0;
 }
