@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* 
+план разработки:
+1. сделать вектор для хранения всех входный чисел
+2. вывести все входные числа 
+3. вывести пары чисел 
+4. вывести тройки чисел 
+5. вывести произведения
+6. оставить 3 произведения которых не делятся на 4
+7. вывести минималтное 
+ */
 
 int main() {
 	cout << "hello world";
