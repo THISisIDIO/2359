@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 /* 
 план разработки:
-1. сделать вектор для хранения всех входный чисел
+1.+ сделать вектор для хранения всех входный чисел
 2. вывести все входные числа 
 3. вывести пары чисел 
 4. вывести тройки чисел 
@@ -12,6 +13,13 @@ using namespace std;
  */
 
 int main() {
-	cout << "hello world";
+	int n(0);
+	cin >> n;
+	vector<int> numbers(n);
+	for (int i(0); i<n ; i++)
+	{
+		cin >> numbers[i];
+	}
+	;
 	return 0;
 }
