@@ -34,6 +34,9 @@ int main() {
         else if (cur_num%2!=0 and n2>cur_num)
             n2=cur_num;
     }
-      cout << d2*n0*n1 << " " << n0*n1*n2;
+       if (d2*n0*n1>=n0*n1*n2)
+        cout << n0*n1*n2;
+    else
+        cout << d2*n0*n1;
     return 0;
 }
