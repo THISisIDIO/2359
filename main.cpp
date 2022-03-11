@@ -34,6 +34,6 @@ int main() {
         else if (cur_num%2!=0 and n2>cur_num)
             n2=cur_num;
     }
-    cout << n0 << " "<< n1 << " " << n2;
+      cout << d2*n0*n1 << " " << n0*n1*n2;
     return 0;
 }
